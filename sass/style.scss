@@ -1,0 +1,10 @@
+@use "components/order-summary-component.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
