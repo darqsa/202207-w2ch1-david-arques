@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Order Summary Component</title>
+  </head>
+  <body>
+    <main>
+      <section class="order-summary-component-container">
+        <img
+          class="order-summary-component-container__image"
+          src="/images/order-summary-component/illustration-hero.svg"
+          alt="Drawing of a girl dancing to music"
+        />
+
+        <h1 class="order-summary-component-container__heading">
+          Order summary
+        </h1>
+        <p class="order-summary-component-container__text">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+        <div class="order-summary-component-container__container">
+          <div class="order-summary-component-container__plan-selector">
+            <img
+              src="/images/order-summary-component/icon-music.svg"
+              alt="Music icon"
+            />
+            <div class="order-summary-component-container__actual-plan">
+              <h2
+                class="order-summary-component-container__annual-plan-text order-summary-component-container__annual-plan-tex--title"
+              >
+                Annual Plan
+              </h2>
+              <span class="order-summary-component-container__annual-plan-text"
+                >$59.99/year</span
+              >
+            </div>
+            <a
+              class="order-summary-component-container__change-button"
+              href="https://open.spotify.com/"
+              >Change</a
+            >
+          </div>
+        </div>
+        <input
+          class="order-summary-component-container__button"
+          type="button"
+          value="Proceed to Payment"
+        />
+        <input
+          class="order-summary-component-container__button order-summary-component-container__button--small"
+          type="button"
+          value="Cancel Order"
+        />
+      </section>
+    </main>
+  </body>
+</html>
